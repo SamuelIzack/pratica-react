@@ -3,8 +3,8 @@ import "./style.css";
 
 function Logo(){
     return(
-        <div className='logo'>
-            <img src= {logo} alt="logo do Samuel Books" />
+        <div className='logo' >
+            <img src= {logo} alt="logo do Samuel Books" className="logoImg" />
             <p><strong>Samuel Books</strong></p>
         </div>
     );

@@ -1,14 +1,12 @@
-import './App.css'
-import Logo from './componentes/logo/logo'
+import './App.css';
+import HeaderBooks from "./componentes/header/headerSite.jsx"
 
 function App() {
 
   return (
     <>
-      <section  className='App'>
-        <header className='App-header'>
-          <Logo></Logo>
-        </header>
+      <section  className='app'>
+          <HeaderBooks/>
       </section>
     </>
   )
@@ -16,4 +14,4 @@ function App() {
 
 
 
-export default App
+export default App;

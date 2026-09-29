@@ -1,0 +1,9 @@
+.icones{
+    display: flex;
+    gap: 15px;
+}
+
+.icone{
+    padding: 10px 25px;
+    cursor: pointer;
+}
