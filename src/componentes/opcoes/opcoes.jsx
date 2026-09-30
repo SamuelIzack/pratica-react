@@ -1,19 +1,19 @@
-
-import "./styleOpcoes.css";
+import { OpcoesLista, OpcaoItem } from './OpcoesStyle.jsx'
 
 const textOpcoes = ["Categoria", "Minha Estante", "Favoritos"]
 
 
 function Opcoes() {
     return(
-            <ul className = "opcoes">
+            <OpcoesLista>
                 {textOpcoes.map((texto) => (
-                    <li key={texto} className="opcao">
+                    <OpcaoItem key={texto}>
                         <p>{texto}</p>
-                    </li>
+                    </OpcaoItem>
                 ))}
-            </ul>
+            </OpcoesLista>
     )
 }
+
 
 export default Opcoes;

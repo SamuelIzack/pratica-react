@@ -1,6 +1,8 @@
-.app-header{
+import styled from "styled-components";
+
+export const HeaderContainer = styled.header`
     background-color: #ecf1f4;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+`

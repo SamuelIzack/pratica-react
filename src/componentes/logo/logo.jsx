@@ -1,12 +1,12 @@
 import logo from "../../img/logo.svg";
-import "./style.css";
+import { LogoContainer, LogoImg } from "./LogoStyle.jsx";
 
 function Logo(){
     return(
-        <div className='logo' >
-            <img src= {logo} alt="logo do Samuel Books" className="logoImg" />
+        <LogoContainer>
+            <LogoImg src={logo} alt="Logo Samuel Books"/>
             <p><strong>Samuel Books</strong></p>
-        </div>
+        </LogoContainer>
     );
 }
 

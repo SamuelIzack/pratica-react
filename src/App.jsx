@@ -1,14 +1,13 @@
-import './App.css';
-import HeaderBooks from "./componentes/header/headerSite.jsx"
+import Header from "./componentes/header/Header.jsx"
+import { AppContainer } from "./containers/AppContainer.jsx";
+
 
 function App() {
 
   return (
-    <>
-      <section  className='app'>
-          <HeaderBooks/>
-      </section>
-    </>
+    <AppContainer>
+      <Header/>
+    </AppContainer>
   )
 }
 
