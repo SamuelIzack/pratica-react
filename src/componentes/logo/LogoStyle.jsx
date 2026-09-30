@@ -9,6 +9,7 @@ export const LogoContainer = styled.div`
 
 export const LogoImg = styled.img`
         margin-right: 15px;
+        margin-left: 15px;
         padding: 10px;
 `
 

@@ -10,4 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     min-height: 100vh;
   }
+
+  li{
+    list-style: none;
+  }
 `
