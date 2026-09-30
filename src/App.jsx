@@ -1,5 +1,6 @@
-import Header from "./componentes/header/Header.jsx"
-import { AppContainer } from "./containers/AppContainer.jsx";
+import { AppContainer } from "./AppContainer.jsx";
+import Header from "./componentes/header/Header.jsx";
+import { Pesquisa } from "./componentes/pesquisa/Pesquisa.jsx";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <AppContainer>
       <Header/>
+      <Pesquisa/>
     </AppContainer>
   )
 }
